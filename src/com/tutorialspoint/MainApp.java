@@ -15,10 +15,10 @@ public class MainApp {
         HelloWorld objB = (HelloWorld) context.getBean("helloWorld");
         objB.getMessage();
 
-        HelloWorld objC = (HelloWorld) context.getBean("helloWorldS");
+        HelloWorld objC = (HelloWorld) context.getBean("helloWorldP");
         objC.setMessage("I'm object C");
         objC.getMessage();
-        HelloWorld objD = (HelloWorld) context.getBean("helloWorldS");
+        HelloWorld objD = (HelloWorld) context.getBean("helloWorldP");
         objD.getMessage();
     }
 }

@@ -7,7 +7,7 @@
         <property name="message" value="Hello World8888!!"></property>
     </bean>
 
-    <bean id="helloWorldS" class="com.tutorialspoint.HelloWorld" scope="singleton" init-method="initMth" destroy-method="destory">
+    <bean id="helloWorldP" class="com.tutorialspoint.HelloWorld" scope="prototype" init-method="initMth" destroy-method="destory">
         <property name="message" value="Hello World8888!!"></property>
     </bean>
 
