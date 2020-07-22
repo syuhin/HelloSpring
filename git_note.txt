@@ -1,5 +1,14 @@
 git config --global user.name "syuhin"
 git config --global user.email syuhin@163.com
 
-
 git clone https://github.com/syuhin/HelloSpring.git
+
+git移除远程仓库某个文件夹
+比如src/product/ 文件夹
+git rm -r --cached "out/production/HelloSpring" //执行命令.
+
+提交到本地
+git commit -m "删除out/production/HelloSpring文件夹"
+
+提交到远程服务器
+git push -u origin master
