@@ -11,4 +11,5 @@
         <property name="message" value="Hello World8888!!"></property>
     </bean>
 
+    <bean class="com.tutorialspoint.InitHelloWorld"></bean>
 </beans>
