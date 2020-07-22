@@ -1,0 +1,5 @@
+git config --global user.name "syuhin"
+git config --global user.email syuhin@163.com
+
+
+git clone https://github.com/syuhin/HelloSpring.git
