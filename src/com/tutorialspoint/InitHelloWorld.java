@@ -13,7 +13,7 @@ public class InitHelloWorld implements BeanPostProcessor {
 
     @Override
     public Object postProcessAfterInitialization(Object bean, String beanName) throws BeansException {
-        System.out.println("AfterInitialization1111  = " + beanName);
+        System.out.println("AfterInitialization222  = " + beanName);
         return bean;
     }
 }
